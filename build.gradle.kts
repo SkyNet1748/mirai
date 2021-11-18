@@ -19,9 +19,9 @@ buildscript {
             mavenLocal()
         }
 
-        mavenCentral()
-        gradlePluginPortal()
-        google()
+        maven(url = "https://maven.aliyun.com/repository/central")
+        maven(url = "https://maven.aliyun.com/repository/gradle-plugin")
+        maven(url = "https://maven.aliyun.com/repository/google")
     }
 
     dependencies {
@@ -73,9 +73,9 @@ allprojects {
             mavenLocal()
         }
 
-        mavenCentral()
-        gradlePluginPortal()
-        google()
+        maven(url = "https://maven.aliyun.com/repository/central")
+        maven(url = "https://maven.aliyun.com/repository/gradle-plugin")
+        maven(url = "https://maven.aliyun.com/repository/central")
     }
 
     afterEvaluate {

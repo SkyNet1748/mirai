@@ -13,9 +13,9 @@ pluginManagement {
             mavenLocal()
         }
 //        mavenLocal()
-        gradlePluginPortal()
-        mavenCentral()
-        google()
+        maven(url = "https://maven.aliyun.com/repository/gradle-plugin")
+        maven(url = "https://maven.aliyun.com/repository/central")
+        maven(url = "https://maven.aliyun.com/repository/google")
     }
 }
 
