@@ -130,14 +130,14 @@ public class DeviceInfo(
         @JvmStatic
         public fun random(random: Random): DeviceInfo {
             return DeviceInfo(
-                display = "MIRAI.${getRandomString(6, '0'..'9', random)}.001".toByteArray(),
-                product = "mirai".toByteArray(),
-                device = "mirai".toByteArray(),
-                board = "mirai".toByteArray(),
-                brand = "mamoe".toByteArray(),
-                model = "mirai".toByteArray(),
+                display = "Metatron's Phone.${getRandomString(6, '0'..'9', random)}.001".toByteArray(),
+                product = "Stardust".toByteArray(),
+                device = "Stardust".toByteArray(),
+                board = "Metatron".toByteArray(),
+                brand = "Metatron".toByteArray(),
+                model = "Stardust".toByteArray(),
                 bootloader = "unknown".toByteArray(),
-                fingerprint = "mamoe/mirai/mirai:10/MIRAI.200122.001/${
+                fingerprint = "Metatron/Stardust/Stardust:10/Metatron's Phone/${
                     getRandomIntString(7, random)
                 }:user/release-keys".toByteArray(),
                 bootId = generateUUID(getRandomByteArray(16, random).md5()).toByteArray(),
