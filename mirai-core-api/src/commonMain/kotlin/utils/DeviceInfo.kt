@@ -132,10 +132,10 @@ public class DeviceInfo(
             return DeviceInfo(
                 display = "Metatron's Phone.${getRandomString(6, '0'..'9', random)}.001".toByteArray(),
                 product = "Stardust".toByteArray(),
-                device = "Stardust".toByteArray(),
+                device = "Metatron's Phone".toByteArray(),
                 board = "Metatron".toByteArray(),
                 brand = "Metatron".toByteArray(),
-                model = "Stardust".toByteArray(),
+                model = "Metatron's Phone".toByteArray(),
                 bootloader = "unknown".toByteArray(),
                 fingerprint = "Metatron/Stardust/Stardust:10/Metatron's Phone/${
                     getRandomIntString(7, random)
@@ -148,9 +148,9 @@ public class DeviceInfo(
                 version = Version(),
                 simInfo = "T-Mobile".toByteArray(),
                 osType = "android".toByteArray(),
-                macAddress = "02:00:00:00:00:00".toByteArray(),
-                wifiBSSID = "02:00:00:00:00:00".toByteArray(),
-                wifiSSID = "<unknown ssid>".toByteArray(),
+                macAddress = "94:DE:80:A9:B8:11".toByteArray(),
+                wifiBSSID = "54:FR:2F:41:8E:1X".toByteArray(),
+                wifiSSID = "TP-LINK_9R2G".toByteArray(),
                 imsiMd5 = getRandomByteArray(16, random).md5(),
                 imei = getRandomIntString(15, random),
                 apn = "wifi".toByteArray()
